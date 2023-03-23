@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <center id="body">
+    <div class="top">
+        <h2 class="heading">ENTER YOU TO-DO</h2>
+        <input type="text" id="desc" class="first">
+        <input type="button"  id="submit" class="btn" onclick='managedata()' value="submit">
+        <input type="button" value="Delete ALL" onclick="deleteall()" class="btn">
+        <div id="msg" class="message"></div>
+    </div>
+    <div class="table">
+        <table>
+            <tr>
+                <th class="tbdo">TO-DO'S</th>
+                <th class="deldesc">DELETE</th>
+            </tr>
+            <tbody id="root">
+
+            </tbody>
+        </table>        
+    </div>
+    </center>
+    <script src="/script.js"></script>
+</body>
+</html>

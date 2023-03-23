@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+    border: 0px;
+    background-image: url("/bg.png");
+}
+/*idss*/
+#body{
+    background: rgba(0, 0, 0, 0.5);
+    height: 664px;
+    width: 664px;
+    margin: auto;
+    margin-top: 60px;
+    color: white;
+}
+/*class*/
+.heading{
+    padding-top: 15px;
+    color: whitesmoke;
+}
+.first{
+    border-radius: 15px;
+    height: 40px;
+    width: 380px;
+    margin-bottom: 10px;
+}
+.btn{
+    border-radius: 15px;
+    height: 45px;
+    width: 80px;
+}
+.table
+{
+    color: white;
+    margin: 20px;
+}
+.tbdo
+{
+    padding-right: 130px;
+    font-size: 30px;
+}
+.deldesc
+{
+    font-size:20px;
+}
+.list
+{
+    font-size: 30px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+.message
+{
+    font-size: 20px;
+}
